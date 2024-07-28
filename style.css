@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: solid 1px;
+}
+
+/* grid: 12*86+11*24 = 1296 */
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+	background-color: #000;
+}
+
+
+h1{
+	font-size: 128px;
+
+}
+
+h2{
+	font-size: 64px;
+}
+
+h3{
+	font-size: 40px;
+}
+
+.fs-1{
+	font-size: 32px;
+}
+
+.fs-2{
+	font-size: 24px;
+}
+
+.fs-3{
+	font-size: 20px;
+}
+
+.primery-color{
+	color: #000;
+}
+
+.secondary-color{
+	color: #fff;
+}
+
+.highlight-color{
+	color: #00ffa3;
+}
+
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+}
+
+.header {
+    color: #D1D1D1;
+    padding: 40px 0;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer p{
+    color: #fff;
+}
+
+
+.banner-content{
+	display: flex;
+	color:#fff;
+	/* justify-content: space-between; */
+	padding-top: 72px;
+	padding-bottom: 32px;
+}
+
+
+.banner-text{
+	width: 50%;
+	display: flex;
+	margin-left: 24px;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.highlight{
+	display: block;
+	color: #00ffa3;
+	font-size: 128px;
+	text-align: right;
+}
+
+.banner-btn{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn{
+	font-size: 16px;
+	border-radius: 32px;
+	background-color: #fff;
+	padding: 12px 24px;
+	color: #000;
+}
+
+.intro{
+	background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 160px 0;
+    font-size: 24px;
+}
+
+.intro .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.intro-text{
+	width: 526px;
+}
+
+.intro-text h2{
+	margin-bottom: 36px;
+}
+
+.intro-text p{
+	margin-bottom: 32px;
+	font-size: 24px;
+}
+
+.intro-img{
+	gap:24px;
+}
+
+
+.intro-img{
+	display: flex;
+}
+
+
